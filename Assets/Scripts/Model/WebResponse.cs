@@ -2,7 +2,7 @@ using System.IO;
 
 public class WebResponse 
 {
-    private string StatusDescription;
+    private string StatusDescription { get; set; }
     private string responsedata;
 
     public WebResponse(string StatusDescription, string responsedata)
@@ -23,6 +23,7 @@ public class WebResponse
         dataStream.Close();
     }
 
+    // ----------------------------------------------------------------
     public string getStringDataResponse()
     {
         return this.responsedata;
