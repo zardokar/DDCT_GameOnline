@@ -1,0 +1,67 @@
+{
+    "success" : true,
+    "data" : {
+        "display_name" : "Dummy Player 01",
+        "level" : 54,
+        "character": {
+            "gender" : "m",
+            "height" : 173,
+            "char_status" : {
+                "str": 50,
+                "vit": 45,
+                "agi": 30,
+                "int": 20
+            }
+        },
+        "balance" : [
+                        {
+                            "currency_id": "coin_s",
+                            "currency_name": "Silver Coin",
+                            "amount" : 500
+                        },
+                        {
+                            "currency_id": "coin_g",
+                            "currency_name": "Gold Coin",
+                            "amount" : 10
+                        },
+                        {
+                            "currency_id": "gem_01",
+                            "currency_name": "Diamond",
+                            "amount" : 100
+                        }
+        ],
+        "equipment": {
+                        "head": null,
+                        "chest": {
+                            "item_id" : "chest_armor_001",
+                            "variation" : {
+                                "color": "red"
+                            }
+                        },
+                        "pants" : {
+                            "item_id" : "pants_armor_003",
+                            "variation" : {
+                                "color": "blue"
+                            }
+                        },
+                        "accessory_slot_01" : null,
+                        "accessory_slot_02" : null,
+                        "left_hand": null,
+                        "right_hand": null,
+                        "cape" : null
+        },
+        "inventory" : [
+                        {
+                            "item_id": "accessory_001",
+                            "qtn": 1,
+                            "variation" : {
+                                "color": "red"
+                            }
+                        },
+                        {
+                            "item_id": "skin_002",
+                            "qtn": 1
+                        }
+        ]
+    }
+}
